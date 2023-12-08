@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "especies_y_habitats",
+  "info": {
+    "singularName": "especie-y-habitat",
+    "pluralName": "especies-y-habitats",
+    "displayName": "Especies y Hábitats"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "visuales": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

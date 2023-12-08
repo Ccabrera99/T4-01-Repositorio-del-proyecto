@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jugadores",
+  "info": {
+    "singularName": "jugador",
+    "pluralName": "jugadores",
+    "displayName": "Jugadores"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "usuario": {
+      "type": "email"
+    },
+    "password": {
+      "type": "password"
+    }
+  }
+}

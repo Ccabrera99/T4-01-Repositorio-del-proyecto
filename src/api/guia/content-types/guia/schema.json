@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guias",
+  "info": {
+    "singularName": "guia",
+    "pluralName": "guias",
+    "displayName": "Guías ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Informacion": {
+      "type": "text"
+    }
+  }
+}

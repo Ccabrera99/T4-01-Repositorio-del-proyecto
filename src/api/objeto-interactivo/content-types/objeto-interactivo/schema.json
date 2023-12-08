@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "objetos_interactivos",
+  "info": {
+    "singularName": "objeto-interactivo",
+    "pluralName": "objetos-interactivos",
+    "displayName": "Objetos Interactivos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "objeto": {
+      "type": "boolean"
+    }
+  }
+}
