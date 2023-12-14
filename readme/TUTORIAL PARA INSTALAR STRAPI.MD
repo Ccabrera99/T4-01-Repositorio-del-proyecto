@@ -1,35 +1,59 @@
-Guía para la creación de la carp
-=========================================
+# Guía para Configurar y Crear Carpeta de Base de Datos con Strapi
 
-1.- paso uno selccionar el escritori donde abriras el cmd para la creacion del tus archivos para la base de datos
+## Introducción
+Esta guía detalla los pasos necesarios para configurar un entorno de base de datos utilizando Strapi para un proyecto llamado "exploranatura".
 
-2.- escribiras cmd  en la barra y se abrirá
+### Requisitos Previos
+- Acceso a un terminal o símbolo del sistema (CMD).
+- XAMPP instalado para MySQL y Apache.
 
-3.- unes ves escrito salda algo asi : "c:\Users\usuario\Desktop>"
+## Pasos a Seguir
 
-4.- despues de "c:\Users\usuario\Desktop>" escribiras lo siguiente  "npx create-strapi-qpp@latest exploranatura-project"
+1. **Preparación del Entorno**
+   - Ubica y selecciona el escritorio para abrir el CMD.
 
-5.- asignamos "custom (manual settings)" , javascript, mysql, y escribimos el nombre de la base de datos en este caso "naturadb",      enter y saldra (127.0.0.1), escribimos root en user name y password lo dejamos vacio, colocamos la "n" de no,  y damos enter y se comienzan a crear e instalar las dependencias.
+2. **Acceso al CMD**
+   - Escribe "cmd" en la barra de búsqueda y ábrelo.
 
-6.-una ves creadas  nos dara una serie de comandos usaremos el "npm run build" pero aun no 
+3. **Ubicación del Directorio**
+   - En el CMD, dirígete al escritorio: `C:\Users\usuario\Desktop>`
 
-7.-abrimos el xampp en caso de no tenerlo instalado aqui esta el enelace  y elegimos la version de nuestra pc "https://www.apachefriends.org/es/index.html"
+4. **Creación del Proyecto Strapi**
+   - Ejecuta el siguiente comando: `npx create-strapi-qpp@latest exploranatura-project`.
 
-8.- una vez abierto damos star en el apache y el mysql
+5. **Configuración de Strapi**
+   - Selecciona "custom (manual settings)", JavaScript, MySQL.
+   - Nombre de la base de datos: "naturadb".
+   - Usuario: "root". Contraseña: [Dejar vacío].
+   - Responde "n" para continuar.
+   - Las dependencias se instalarán automáticamente.
 
-9.-en nuestro navegadaor escribimos  "localhos/phpmyadmin", y nos abrira  phpmyamdin
+6. **Configuración de XAMPP**
+   - Abre XAMPP y arranca Apache y MySQL.
 
-10.-y agregamos nuestra base de datos se llama "naturadb"
+7. **Acceso a PHPMyAdmin**
+   - En tu navegador, visita: `localhost/phpmyadmin`.
+   - Crea la base de datos "naturadb".
 
-11.-nos vamos a nustra carpeta donde se crearon las archivos de "exploranatura" abrimos el cmd ahi 
+8. **Inicialización del Proyecto**
+   - Navega a la carpeta "exploranatura" desde el CMD.
+   - Ejecuta: `npm run build`.
 
-12.-saldria algo asi : "c:\Users\usuario\Desktop\exploranatura-project>" y escribimos "npm run build" y damo enter, esto instalará componenetes del strapi 
+9. **Inicio de Strapi**
+   - Ejecuta: `npm run develop`.
+   - Accede al localhost: `http://localhost:1337`.
 
-13.-una ves terminado  ponemos el siguiente comando "npm run develop" nos dará este local host "http://localhost:1337"
+10. **Configuración Inicial**
+    - Registra los datos necesarios para acceder a Strapi.
 
-14 .-registras los datos q usaras para usar strapi.
+11. **Finalización**
+    - Inicia sesión en Strapi y verifica la configuración.
 
-15 .- finalmente te logeas.
+¡El entorno de base de datos con Strapi para el proyecto "exploranatura" está listo para su uso!
 
+---
+#### Nota: 
+Asegúrate de seguir los pasos con precisión para configurar el entorno sin inconvenientes.
 
+Este documento ha sido creado para asistir en la configuración inicial. Cualquier problema adicional puede requerir consulta de la documentación oficial o asistencia técnica.
 
